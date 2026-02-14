@@ -1,0 +1,62 @@
+/* Minimal Monochrome Design System */
+:root {
+  --bg: #ffffff;
+  --bg-secondary: #fafafa;
+  --border: #e5e5e5;
+  --text: #171717;
+  --text-secondary: #737373;
+  --text-tertiary: #a3a3a3;
+}
+
+[data-theme='dark'] {
+  --bg: #171717;
+  --bg-secondary: #262626;
+  --border: #404040;
+  --text: #fafafa;
+  --text-secondary: #a3a3a3;
+  --text-tertiary: #737373;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--bg);
+  transition: background 0.2s, color 0.2s;
+}
+
+h1, h2, h3 {
+  font-weight: 300;
+  letter-spacing: -0.02em;
+}
+
+h1 { font-size: 1.75rem; }
+h2 { font-size: 1.5rem; }
+h3 { font-size: 1.125rem; }
+
+button {
+  font-family: inherit;
+  font-weight: 300;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+input, select {
+  font-family: inherit;
+  font-weight: 300;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
