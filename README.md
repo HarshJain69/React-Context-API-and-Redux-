@@ -71,6 +71,11 @@ This project implements two complementary state management approaches:
 - Consistent 16-18px sizing
 - Minimal, line-based design
 
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/c4ac7bf3-2a1a-48f2-917a-913d3bc25614" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/9019505a-d6b3-4361-871d-5eaead99cea8" />
+
+
+
 ## Installation
 
 ```bash
